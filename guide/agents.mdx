@@ -52,6 +52,8 @@ Anna dispatches work to the other agents, so she is the safe default for inciden
 4. **Deliver the output you asked for** — a dashboard, report, prioritized recommendations, or an alert.
 5. **Act within its autonomy mode** — in Manual mode the agent waits for your [approval](/guide/approval) before executing changes. Every action is logged with an audit trail.
 
+When an agent uses a rendered browser, its sessions belong to that conversation and share a two-session workspace limit. CloudThinker recovers a slot left by interrupted cleanup only after confirming the browser is absent. Active sessions and sessions with uncertain browser state retain their slots.
+
 ## Autonomy
 
 Each agent runs in one of two modes, configurable per agent:
